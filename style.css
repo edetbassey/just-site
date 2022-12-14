@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: rgb(57, 56, 56);
+    /* color: #fff; */
+}
+h1, h2, p, div {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-bottom: 20px;
+    color: #E8F9FD;
+    text-shadow: 0 0 4px black;
+    font-size: 48px;
+}
+p{
+    margin-bottom: 10px;
+}
+.div{
+    width: 384px;
+    display: block;
+    margin: 100px auto 30px auto;
+}
+.invert{
+    color: #235b59;
+}
+.invert-gb{
+    background-color:#fff;
+    color: #000;
+}
+button{
+    color: #fff;
+    cursor: pointer;
+    background-color: #439A97;
+    border: 2px solid #439A97;
+}
+.btn-style{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px; 
+    margin-bottom: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-div{
+    background-color: #E8F9FD; 
+    /* background-image: url(https://media.giphy.com/media/LmNu0C0s1LSAE8A6fn/giphy.gif); */
+    /* background-size: cover; */
+    /* width: 400px; */
+    padding: 50px;
+}
+input{
+    width: 350px;
+}
+a{
+    align-self: flex-end;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+.dir {
+    justify-content: center;
+    align-items: center;
+}
